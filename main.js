@@ -13,7 +13,7 @@ var sorteio = (Math.floor(Math.random()*4)+1)
 var paises = ["brasil","alemanha","estados unidos","belgica"];
 
 if(sorteio==1){
-    alert("SORTEAMOS  SUA  PALAVRA, ELA POSSUI 6 LETRAS!\n\n_ _ _ _ _ _")
+    alert("SORTEAMOS  SUA  PALAVRA, ELA POSSUI 6 LETRAS!\n\nA CATEGORIA É: PAÍSES\n\n_ _ _ _ _ _")
 let x = ["B","R","A","S","I","L"];
 let y = ["_","_","_","_","_","_"];
 let i = true;
@@ -277,7 +277,7 @@ var pergunta = confirm("VOCÊ DESEJA JOGAR NOVAMENTE?")
 if (pergunta == true) {
     user_quer_jogar = true
 } else {
-    alert("OBRIGADO PELA PARTCIPAÇÃO, "+name+", ESPERO QUE TENHA SE DIVERTIDO E ESPERO VER VOCÊ AQUI NOVAMENTE!")
+    alert("OBRIGADO PELA PARTICIPAÇÃO, "+name+", ESPERO QUE TENHA SE DIVERTIDO E ESPERO VER VOCÊ AQUI NOVAMENTE!")
     user_quer_jogar = false
 }
 }
